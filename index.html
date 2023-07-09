@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora Celsius - Fahrenheit </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>CALCULADORA</h1>
+        <div class="conteudo">
+            <h2>Celsius - Fahrenheit</h2>
+            <input type="number" name="txtcelsius" id="txtcelsius" placeholder="°C">
+            <button class="botao" onclick="calcular()">CALCULAR</button>
+            <div id="resposta"></div>
+        </div>
+    </div>
+
+    <script>
+        function calcular(){
+            let txtcelsius = document.getElementById('txtcelsius');
+            let resposta = document.getElementById('resposta');
+            let numeroCelsius = Number(txtcelsius.value)
+            let valorF = numeroCelsius * 1.8 + 32;
+            resposta.innerHTML = `${valorF}°F`;
+        }
+    </script>
+</body>
+</html>
