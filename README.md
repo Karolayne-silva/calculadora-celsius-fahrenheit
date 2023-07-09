@@ -2,5 +2,9 @@
 uma calculadora simples que calcula de graus celsius para graus fahrenheit utilizando HTML, CSS e JS.
 
 
-https://github.com/Karolayne-silva/calculadora-celsius-fahrenheit/assets/96891482/c4bc735b-64a0-42f8-9f00-fd09cad6384a
+
+
+https://github.com/Karolayne-silva/calculadora-celsius-fahrenheit/assets/96891482/367013d6-ed18-4f2e-ab22-eaa3c4fd31ea
+
+
 
